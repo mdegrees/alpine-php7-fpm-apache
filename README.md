@@ -6,10 +6,10 @@ This Image serves the purpose of testing your Application with Apache 2.4.7 and 
 
 To Start the Container
 -------------------------------
-```docker run --name apache smtripat/alpine-apache-php-fpm:latest```
+```docker run --name apache malihs/alpine-apache-php-fpm:latest```
 
 To make the conatiner listen on host port 80
-```docker run -p 80:80 -d --name apache smtripat/alpine-apache-php-fpm:latest```
+```docker run -p 80:80 -d --name apache malihs/alpine-apache-php-fpm:latest```
 
 Docker Compose
 ------------------------
