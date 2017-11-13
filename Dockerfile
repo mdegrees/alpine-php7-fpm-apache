@@ -1,5 +1,6 @@
 FROM alpine:3.6
 MAINTAINER Soufian Malih <malih.soufian@gmail.com>
+# possibly add apk update and apk add openssh
 RUN apk add --no-cache \
     apache2-proxy \
     php7-fpm \
