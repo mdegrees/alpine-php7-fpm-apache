@@ -10,7 +10,7 @@ RUN apk add --no-cache \
     php7-json \
     php7-iconv \
     php7-pdo \
-    php7-pdo_mysql
+    php7-pdo_mysql \
     php7-xml \
     php7-mbstring \
     php7-openssl \
